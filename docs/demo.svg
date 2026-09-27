@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+  <rect width="980" height="520" rx="18" fill="#0d1117"/>
+  <circle cx="35" cy="30" r="7" fill="#ff5f56"/><circle cx="58" cy="30" r="7" fill="#ffbd2e"/><circle cx="81" cy="30" r="7" fill="#27c93f"/>
+  <text x="35" y="80" fill="#8b949e" font-family="monospace" font-size="20">$ pip install failmin</text>
+  <text x="35" y="116" fill="#8b949e" font-family="monospace" font-size="20">$ failmin demo</text>
+  <text x="35" y="164" fill="#f0f6fc" font-family="monospace" font-size="20">Original trace</text>
+  <text x="35" y="198" fill="#c9d1d9" font-family="monospace" font-size="18">Events        16</text>
+  <text x="35" y="228" fill="#c9d1d9" font-family="monospace" font-size="18">Failure rate  100.0%</text>
+  <text x="35" y="278" fill="#f0f6fc" font-family="monospace" font-size="20">Minimal failure</text>
+  <text x="35" y="312" fill="#c9d1d9" font-family="monospace" font-size="18">Events         3</text>
+  <text x="35" y="342" fill="#c9d1d9" font-family="monospace" font-size="18">Reduction     81.2%</text>
+  <text x="35" y="372" fill="#c9d1d9" font-family="monospace" font-size="18">Strategy      hierarchical</text>
+  <text x="520" y="164" fill="#f0f6fc" font-family="monospace" font-size="20">Critical elements</text>
+  <text x="520" y="204" fill="#c9d1d9" font-family="monospace" font-size="18">• user (user_message)</text>
+  <text x="520" y="238" fill="#c9d1d9" font-family="monospace" font-size="18">• stale_policy (file)</text>
+  <text x="520" y="272" fill="#c9d1d9" font-family="monospace" font-size="18">• answer (model_output)</text>
+  <text x="520" y="336" fill="#3fb950" font-family="monospace" font-size="22">Failure still reproduced ✓</text>
+  <text x="35" y="455" fill="#58a6ff" font-family="monospace" font-size="18">16 events → 3 events · 81.2% smaller · no API key required</text>
+</svg>
