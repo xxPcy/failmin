@@ -32,3 +32,8 @@ failmin = "failmin.cli:main"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+[project.urls]
+Homepage = "https://github.com/xxPcy/failmin"
+Repository = "https://github.com/xxPcy/failmin"
+Issues = "https://github.com/xxPcy/failmin/issues"
