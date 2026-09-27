@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.2",
+  "events": [
+    {
+      "id": "noise",
+      "type": "retrieval_result",
+      "output": "irrelevant",
+      "metadata": {"group": "search_noise"}
+    },
+    {
+      "id": "user",
+      "type": "user_message",
+      "input": "What is the refund period?"
+    },
+    {
+      "id": "policy",
+      "type": "file",
+      "output": "Refund period is 30 days.",
+      "metadata": {"group": "policy_context"}
+    },
+    {
+      "id": "answer",
+      "type": "model_output",
+      "output": "30 days",
+      "dependencies": ["user", "policy"]
+    }
+  ]
+}
